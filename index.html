@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soluções Digitais Inteligentes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif;scroll-behavior:smooth;}
+    body{background:#0f172a;color:#fff;line-height:1.6;}
+    header{background:linear-gradient(90deg,#06b6d4,#3b82f6);padding:2rem;text-align:center;position:relative;overflow:hidden;}
+    header::before{content:"";position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=2100&q=80') center/cover no-repeat;opacity:.15;z-index:0;}
+    header h1{font-size:2.5rem;position:relative;z-index:1;}
+    nav{margin-top:1rem;position:relative;z-index:1;}
+    nav a{color:#fff;margin:0 1rem;text-decoration:none;font-weight:bold;transition:color .3s;}
+    nav a:hover{color:#facc15;}
+    section{padding:4rem 2rem;text-align:center;}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;padding:2rem;}
+    .feature{background:#1e293b;padding:2rem;border-radius:.75rem;}
+    .bot-video{width:100%;max-width:720px;border-radius:.5rem;margin:0 auto 1.5rem;display:block;}
+    .video-section iframe{width:100%;max-width:560px;height:315px;border:none;}
+    .button{display:inline-block;background:#3b82f6;color:#fff;padding:.8rem 1.5rem;border-radius:.5rem;margin:1rem;text-decoration:none;font-weight:bold;transition:background .3s;}
+    .button:hover{background:#2563eb;}
+    .whatsapp-float{position:fixed;bottom:20px;right:20px;z-index:999;}
+    .whatsapp-float img{width:60px;height:60px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Soluções Digitais Inteligentes</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#bot">Bot Binance</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Automação e Tecnologia para Resultados Reais</h2>
+    <p>Oferecemos bots, sistemas e ferramentas digitais que otimizam processos, aumentam seus lucros e simplificam seu dia a dia.</p>
+  </section>
+
+  <section class="features" id="produtos">
+    <div class="feature"><h3>Bots de Investimento</h3><p>Análise gráfica profissional com estratégias de alta performance para iniciantes e avançados.</p></div>
+    <div class="feature"><h3>Automação de Processos</h3><p>Ferramentas que economizam tempo e garantem eficiência no seu negócio digital.</p></div>
+    <div class="feature"><h3>Suporte e Comunidade</h3><p>Acompanhamento e atualizações constantes para garantir a evolução de sua experiência.</p></div>
+  </section>
+
+  <section class="bot-section" id="bot">
+    <h2>Bot de Análise Binance</h2>
+    <!-- Vídeo fixo substitui a imagem -->
+    <video class="bot-video" src="bot-demo.mp4" controls playsinline poster="poster-bot.jpg"></video>
+    <p style="max-width:700px;margin:2rem auto 1rem;line-height:1.6;">Este bot permite que você analise gráficos da Binance com indicadores como: <strong>RSI, MACD, ADX, Médias Móveis</strong> e <strong>Níveis de Fibonacci</strong>. Interface simples e intuitiva, perfeita para iniciantes e avançados.</p>
+    <a class="button" href="Avaliacao_Profissional_Bot_Binance.pdf" target="_blank">Ler Avaliação Profissional (PDF)</a>
+  </section>
+
+  <section class="video-section">
+    <h2>Conheça nosso canal no YouTube</h2>
+    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=maicko_da_massena" allowfullscreen></iframe><br>
+    <a class="button" href="https://www.youtube.com/@maicko_da_massena" target="_blank">Acessar Canal</a>
+  </section>
+
+  <section class="whatsapp-section">
+    <h2>Fale diretamente pelo WhatsApp</h2>
+    <a class="button" href="https://wa.me/5548996184665" target="_blank">Clique para conversar</a>
+  </section>
+
+  <section class="hotmart-section">
+    <h2>Conheça nossos produtos exclusivos</h2>
+    <a class="button" href="https://go.hotmart.com/J100456765M" target="_blank">Acessar Produtos na Hotmart</a>
+  </section>
+
+  <footer id="contato">
+    <p>&copy; 2025 Soluções Digitais Inteligentes. Todos os direitos reservados.</p>
+    <p>Contato: contato@solucoesdigitais.com</p>
+  </footer>
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/5548996184665" target="_blank">
+      <img src="https://img.icons8.com/color/96/000000/whatsapp.png" alt="WhatsApp"/>
+    </a>
+  </div>
+</body>
+</html>
